@@ -1,0 +1,55 @@
+*, 
+*::after, 
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+:root {
+    --teal: rgb(144, 233, 222);
+    --navy: rgb(2, 2, 143);
+    --cream-of-peach: rgb(193, 178, 164);
+    --grey: rgb(98, 94, 94);
+}
+body {
+    font-family: 'Cormorant+Garamond', 'Quicksand';
+    text-align: center;
+    background-color: var(--teal);
+}
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300&family=Quicksand:wght@300&display=swap');
+
+body {
+    color: var(--grey);
+    background-image: url(/images/thankful-for-beach.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-top: 10px;
+}
+
+h2 {
+    margin: 10px;
+}
+
+p {
+    margin: 15px;
+}
+
+table, tr {
+    border: 1px solid; 
+    width: 50%;
+    align-content: center;
+    margin-left: auto;
+    margin-top: 30px;
+    margin-right: auto;  
+}
+table, tr, td {
+    border: 1px solid; 
+}
+
+footer h6 {
+    color: var(--grey);
+    font-size: small;
+    list-style: none;
+    cursor: pointer;
+}

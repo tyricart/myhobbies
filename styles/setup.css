@@ -1,0 +1,29 @@
+/* normalizing css */
+*,
+*::after, 
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+:root {
+    --teal: rgb(65, 185, 177);
+    --navy: rgb(2, 2, 143);
+    --cream-of-peach: rgb(193, 178, 164);
+    --grey: rgb(98, 94, 94);
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300&family=Quicksand:wght@300&display=swap');
+
+body {
+    font-family: 'Cormorant+Garamond', 'Quicksand';
+    text-align: center;
+}
+
+.content {
+    align-content: center;
+    margin-left: auto;
+    margin-top: 30px;
+    margin-right: auto; 
+}
